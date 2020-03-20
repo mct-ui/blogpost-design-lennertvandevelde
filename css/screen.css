@@ -68,7 +68,7 @@ img {
 h1,
 h2,
 h3{
-    font-family: "Inter Web" "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #17181A
 }
 
@@ -254,4 +254,28 @@ a:focus {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* Components: Author */
+.c-author {
+    display: flex;
+    align-items: center;
+}
+.c-author__image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.c-author__name,
+.c-author__meta{
+    margin-bottom: 0;
+}
+.c-author__meta{
+    font-size: 16px;
+    line-height: 24px;
+}
+.c-author__name{
+    font-size: 16px;
 }
