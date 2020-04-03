@@ -209,6 +209,14 @@ a:focus {
 .c-article__body{
     padding: 0 24px;
 }
+.c-quote{
+    font-family: "droid-serif", Georgie, serif;
+    color: #00B37D;
+    background-color:#F2FAF8 ;
+    padding: 24px;
+    font-size: 23px;
+   width: 110%;
+}
 
 @media (min-width: 768px){
     .c-article__header{
